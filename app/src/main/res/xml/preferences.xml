@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <PreferenceCategory
+            android:title="Notifications">
+
+        <CheckBoxPreference
+            android:key="activateNotifications"
+            android:title="Activer les notifications"
+            android:summary="Être notifié lorsque le solde arrive en-dessous d'un seuil."
+                />
+
+        <EditTextPreference
+            android:key="alertValue"
+            android:title="Seuil d'alerte"
+            android:inputType="numberDecimal"
+                />
+
+    </PreferenceCategory>
+
+</PreferenceScreen >

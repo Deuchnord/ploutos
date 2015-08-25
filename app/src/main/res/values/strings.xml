@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ploutos</string>
+    <string name="aboutApp">À propos</string>
+    <string name="about">Ploutos\nJérôme Deuchnord © 2014 − Tous droits réservés\n<a href="http://www.deuchnord.tk">www.deuchnord.tk</a></string>
+
+    <!-- MainActivity -->
+    <string name="symbolDevise">€</string>
+    <string name="remaining">Reste :</string>
+
+    <!-- Menu -->
+    <string name="add_spend">Ajouter une dépense</string>
+    <string name="add_money">Recharger le compte</string>
+    <string name="settings">Paramètres</string>
+
+    <!-- AddMoney activity -->
+    <string name="title_activity_add_money">Recharger le compte</string>
+    <string name="text_addmoney">Entrez la somme ajoutée :</string>
+    <string name="buttonSave">Enregistrer</string>
+    <string name="alert_moneyAdded_empty">Veuillez indiquez la somme avant d\'enregistrer !</string>
+
+    <!-- DeleteTransactionDialog -->
+    <string name="deleteTransaction_messageContent">Voulez-vous vraiment supprimer cette transaction ?\nCette opération est irréversible.</string>
+    <string name="deleteTransaction_yes">Oui</string>
+    <string name="deleteTransaction_no">Non</string>
+    <string name="lineDeleted">Transaction supprimée.</string>
+
+    <!-- Predefined payments -->
+    <string name="managePredefinedPayments">Gérer les paiements prédéfinis</string>
+    <string name="managePredefinedPaymentsTitle">Paiements prédéfinis</string>
+    <string name="operation_payment">Dépense</string>
+    <string name="operation_recharge">Recharge</string>
+    <string name="textview_namepredefinedpayment">Nom du paiement prédéfini :</string>
+    <string name="textview_value">Valeur de la dépense :</string>
+
+    <string name="deletePredefinedTransaction_messageContent">Voulez-vous vraiment supprimer cette transaction prédéfinie ?\nCette opération est irréversible.</string>
+
+    <string name="addPredefinedPayment">Ajouter un paiement prédéfini</string>
+    <string name="notif_remaining">Il reste</string>
+
+</resources>

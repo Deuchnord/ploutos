@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical"
+              tools:context="com.deuchnord.gestioncarteru.AddPredefinedPaymentActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_namepredefinedpayment"
+            android:id="@+id/textView" android:layout_gravity="left"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/namePayment" android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_value"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/valuePayment" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonSave"
+            android:id="@+id/saveButton" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

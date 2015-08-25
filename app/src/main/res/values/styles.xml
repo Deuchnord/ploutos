@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="actionbar_blue">#0066dd</color>
+    <color name="statusbar_blue">#0044bb</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/actionbar_blue</item>
+        <item name="colorPrimaryDark">@color/statusbar_blue</item>
+    </style>
+
+</resources>

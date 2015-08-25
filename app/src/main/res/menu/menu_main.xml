@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_addSpend"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="@string/add_spend" />
+    <item
+        android:id="@+id/action_addMoney"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/add_money"/>
+    <item
+        android:id="@+id/action_managePredefinedPayments"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/managePredefinedPayments"
+        />
+    <item
+        android:id="@+id/action_preferences"
+        android:orderInCategory="900"
+        app:showAsAction="never"
+        android:title="@string/settings"
+        />
+
+</menu>
