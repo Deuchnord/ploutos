@@ -29,6 +29,7 @@
     <!-- Predefined payments -->
     <string name="managePredefinedPayments">Gérer les paiements prédéfinis</string>
     <string name="managePredefinedPaymentsTitle">Paiements prédéfinis</string>
+    <string name="info_predefinedpayment">Vous pouvez prédéfinir les paiements que vous avez l\'habitude d\'effectuer afin de les enregistrer plus rapidement.</string>
     <string name="operation_payment">Dépense</string>
     <string name="operation_recharge">Recharge</string>
     <string name="textview_namepredefinedpayment">Nom du paiement prédéfini :</string>

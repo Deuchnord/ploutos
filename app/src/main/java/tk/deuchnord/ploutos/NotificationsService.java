@@ -44,7 +44,7 @@ public class NotificationsService extends Service {
     protected void notifyMoney(double currentAmount) {
 
         Notification.Builder notificationBuilder = new Notification.Builder(this);
-        notificationBuilder.setSmallIcon(R.drawable.ic_notification);
+        notificationBuilder.setSmallIcon(R.drawable.ic_stat_ploutos);
         notificationBuilder.setContentTitle(getString(R.string.app_name));
         notificationBuilder.setContentText(getString(R.string.notif_remaining)+" "+currentAmount+" "+getString(R.string.symbolDevise));
 
