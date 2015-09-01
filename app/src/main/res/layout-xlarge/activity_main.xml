@@ -15,21 +15,19 @@
             android:id="@+id/remainingMoney"
             android:textSize="25sp"
             android:gravity="center"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <ListView
         android:id="@+id/listTransactions"
         android:layout_width="618dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/remainingMoney"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/remainingMoney">
+        android:layout_below="@+id/remainingMoney"
+        android:layout_alignRight="@+id/remainingMoney"
+        android:layout_alignEnd="@+id/remainingMoney"
+        android:layout_alignLeft="@+id/remainingMoney"
+        android:layout_alignStart="@+id/remainingMoney">
     </ListView>
 
 </RelativeLayout>

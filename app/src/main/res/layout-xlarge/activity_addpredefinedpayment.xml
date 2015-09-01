@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="vertical"
+    tools:context="com.deuchnord.gestioncarteru.AddPredefinedPaymentActivity">
+
+    <TextView
+        android:layout_width="544dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_namepredefinedpayment"
+        android:id="@+id/textView" android:layout_gravity="left"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namePayment" android:layout_gravity="center_horizontal"
+        android:inputType="text|textCapSentences"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_value"
+        android:layout_below="@+id/namePayment"
+        android:id="@+id/textView2"
+        android:layout_alignLeft="@+id/namePayment"
+        android:layout_alignStart="@+id/namePayment"
+        android:layout_alignRight="@+id/namePayment"
+        android:layout_alignEnd="@+id/namePayment" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/valuePayment" android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSave"
+        android:id="@+id/saveButton" android:layout_gravity="center_horizontal"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/valuePayment"
+        android:layout_alignLeft="@+id/valuePayment"
+        android:layout_alignStart="@+id/valuePayment"
+        android:layout_alignRight="@+id/valuePayment"
+        android:layout_alignEnd="@+id/valuePayment" />
+</RelativeLayout>
